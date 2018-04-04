@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/udp_settings_button"
+        android:title="@string/udp_settings"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/stop_graphing_button"
+        android:title="@string/stop"
+        app:showAsAction="always"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/start_graphing_button"
+        android:title="@string/start"
+        app:showAsAction="always" />
+
+
+</menu>

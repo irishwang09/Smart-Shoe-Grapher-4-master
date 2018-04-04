@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/bg"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@id/recycler_view_settings_cards_list"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background_border"
+        android:elevation="8dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="75"
+        android:background="@drawable/background_border"
+        android:elevation="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <fragment
+            android:layout_margin="10dp"
+            android:name="Fragments.GraphFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@id/graph_fragment"
+            android:layout_weight="70"
+            tools:layout="@layout/graph_fragment" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

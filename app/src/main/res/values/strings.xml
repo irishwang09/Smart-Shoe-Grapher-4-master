@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">Smart Shoe Grapher</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">UDP Settings</string>
+    <string name="udp_settings">UDP Settings</string>
+    <string name="acknowledge_server">Ping Server</string>
+    <string name="remote_hostname">Remote Hostname/IP Address</string>
+    <string name="example_host">smartshoegrapher.dynamic-dns.net</string>
+    <string name="remote_port">Remote Port</string>
+    <string name="remote_port_example">5013</string>
+    <string name="local_port">Local Port</string>
+    <string name="local_port_example">5003</string> <!--5000-->
+    <string name="connected">Not Connected</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="apply_button">Apply</string>
+    <string name="reset_button">Reset</string>
+    <string name="connectedComplete">Connected</string>
+    <string name="plotTitle">Sensor Values Vs Count</string>
+    <string name="AddNew">Add New Pairing</string>
+    <string name="ping">Ping</string>
+    <string name="connect">Connect</string>
+    <string name="done_button">Done</string>
+    <string name="connected_sensors">Connected Sensors</string>
+    <string name="home_button">Home</string>
+    <string name="take_to_sensor_pairing_button">Sensor Pairing</string>
+    <string name="take_to_graph_settings_button">Graph Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
